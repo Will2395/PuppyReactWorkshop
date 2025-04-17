@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#pup-box {
+  border: solid 2px white;
+  padding: 35px;
+  min-width: 320px;
+}
+
+#pup-list h2 {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+#pup-list p {
+  text-align: left;
+  padding-left: 40px;
+}
+
+#pup-feature ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 40px;
+  text-align: left;
+  list-style: none;
+}
+
+#divider {
+  height: 1px;
+  background-color: white;
+  margin-top: 35px;
 }
